@@ -4,6 +4,7 @@ import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { Poppins } from "next/font/google";
 import Link from "next/link";
+import { UserButton } from "@clerk/nextjs";
 
 const headingFont = localFont({
   src: "../../public/fonts/font.woff2",
@@ -46,6 +47,7 @@ const MarketingPage = () => {
       <Button className="mt-6" size="lg" asChild>
         <Link href="/sign-up">Get Taskify for free</Link>
       </Button>
+      <div className="h-screen"></div>
     </div>
   );
 };

@@ -1,8 +1,7 @@
-import { ReactNode } from "react";
-
-const ClerkLayout = ({ children }: { children: ReactNode }) => {
+const ClerkLayout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <div className="h-full flex items-center justify-between">{children}</div>
+    <div className="h-full flex items-center justify-center">{children}</div>
   );
 };
+
 export default ClerkLayout;
